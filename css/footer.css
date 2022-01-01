@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+    background: rgba(125, 125, 125, 0.5);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: auto;
+    display: table-cell;
+    z-index: 10;
+}
+
+.footer p {
+    position: absolute;
+    left: 10%;
+    top: 5.5%;
+    text-align: start;
+    color: white;
+    font-size: 20px;
+}
+
+
+.footer .github {
+    position: relative;
+    left: 75%;
+    height: auto;
+    display: inline-block;
+}
+
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 45%;
+}

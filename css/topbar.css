@@ -4,7 +4,6 @@
 }
 
 .top-card {
-    position: fixed;
     background-color: rgba(40, 40, 40, 0.25);
     width: 100%;
     top: 0%;
@@ -34,6 +33,10 @@
 
 .top-card ul a li{
     list-style-type: none;
+}
+
+.top-card ul a li[aria-current="page"] {
+    background: rgba(50, 50, 50, 0.25);
 }
 
 #date {
